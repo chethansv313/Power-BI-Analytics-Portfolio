@@ -1,45 +1,35 @@
-# Sales Performance Dashboard Using Power BI
+# Customer Cohort & Churn Analytics
 
-## Overview
-An interactive sales dashboard created using Microsoft Power BI Desktop and Microsoft's Financial Sample Excel dataset.
+## Project Overview
+This project analyzes customer churn using the IBM Telco Customer Churn dataset and Microsoft Power BI.
 
 ## Objectives
-- Analyze sales and profit performance.
-- Track profit margin percentage.
-- Review monthly sales trends.
-- Compare sales across products and business segments.
-- Filter results by date and country.
+- Calculate the overall customer churn rate.
+- Analyze churn by tenure groups and contract types.
+- Compare churn across internet service types.
+- Investigate potential high-risk segments, including Fiber Optic customers without Tech Support.
 
 ## Tools Used
-- Microsoft Power BI Desktop
-- Microsoft Excel
+- Microsoft Power BI
+- Power Query
 - DAX
+- IBM Telco Customer Churn dataset
 
-## Dashboard Components
-- Total Sales KPI card
-- Total Profit KPI card
-- Profit Margin % KPI card
-- Monthly Sales Trend line chart
-- Sales by Product bar chart
-- Sales by Segment donut chart
-- Date slicer
-- Country slicer
+## Key Measures
+- Total Customers
+- Churned Customers
+- Churn Rate %
 
-## Folder Structure
-- `data/` — source Excel dataset
-- `report/` — Power BI report and PDF export
-- `docs/` — project documentation
-- `screenshots/` — dashboard screenshot
+## Dashboard Features
+- Customer KPI cards
+- Churn analysis by contract and internet service
+- Tenure and contract churn heatmap
+- High-risk customer segment analysis
 
-## Files
-- `Sales_Performance_Dashboard.pbix` — interactive report
-- `Sales_Performance_Dashboard.pdf` — static report export
-- `Project_Documentation.docx` — project documentation
-- `Sales_Dashboard.png` — screenshot evidence
+## Deliverables
+- Customer_Churn_Dashboard.pbix
+- Customer_Churn_Dashboard.pdf
+- README.txt
 
-## How to Use
-Open `Sales_Performance_Dashboard.pbix` in Power BI Desktop. Use the date and country slicers to explore sales performance.
-
-## Conclusion
-This project demonstrates the use of Power BI for sales analysis, data visualization, KPI reporting, and interactive filtering.
-
+## Note
+The dashboard findings should be interpreted from the actual values displayed in the report. The project identifies churn patterns and potential risk segments; it does not establish the causes of churn.
